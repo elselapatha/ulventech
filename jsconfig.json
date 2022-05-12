@@ -1,0 +1,56 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2021",
+    "moduleResolution": "Node",
+    "baseUrl": ".",
+    "paths": {
+      "@helpers/*": [
+        "./src/helpers/*"
+      ],
+      "@routes/*": [
+        "./src/routes/*"
+      ],
+      "@utils": [
+        "./src/utils/index.js"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@services/*": [
+        "./src/services/*"
+      ],
+      "@validators/*": [
+        "./src/validators/*"
+      ],
+      "@plugins/*": [
+        "./src/plugins/*"
+      ],
+      "@middleware/*": [
+        "./src/middleware/*"
+      ],
+      "@controllers/*": [
+        "./src/controllers/*"
+      ],
+      "@config": [
+        "./src/config/index.js"
+      ],
+      "@config/*": [
+        "./src/config/*"
+      ],
+      "@errors": [
+        "./src/errors/index.js"
+      ],
+      "@errors/*": [
+        "./src/errors/*"
+      ],
+      "@models/*": [
+        "./src/models/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
