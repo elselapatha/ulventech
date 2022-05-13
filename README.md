@@ -15,8 +15,8 @@ Open Project folder in terminal and execute below commands
 Add below mentioned attributes to ``.env`` file.
 | Attribute   |  Value |
 |   ---     |   ---  |
-|PORT        |<port app should be bind>|
-|JWT_SECRET  |<some secret key for jwt>|
+|PORT        | < port app should be bind > |
+|JWT_SECRET  | < some secret key for jwt > |
 
 If you are did above steps execute below command in terminal
 ```sh
