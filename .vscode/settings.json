@@ -1,0 +1,21 @@
+{
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript"
+  ],
+  "eslint.format.enable": true,
+  "eslint.packageManager": "yarn",
+  "eslint.run": "onSave",
+  "editor.formatOnSave": true,
+  "prettier.semi": false,
+  "cSpell.words": [
+    "signin",
+    "ULVENTECH"
+  ]
+}
