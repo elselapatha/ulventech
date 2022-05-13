@@ -13,10 +13,10 @@ Open Project folder in terminal and execute below commands
 2. touch .env // if you are using windows create .env file in your root folder
 ```
 Add below mentioned attributes to ``.env`` file.
-Attribute   |  Value |
-    ---     |   ---  |
-PORT        |<port app should be bind>|
-JWT_SECRET  |<some secret key for jwt>|
+| Attribute   |  Value |
+|   ---     |   ---  |
+|PORT        |<port app should be bind>|
+|JWT_SECRET  |<some secret key for jwt>|
 
 If you are did above steps execute below command in terminal
 ```sh
